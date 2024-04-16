@@ -20,3 +20,4 @@ print(text[10:16:1])
 print(text[10:16:2])
 print(text[::2])
 print(text[::-1]) #invertir palabra
+print(text[16:9:-1]) #selección e inversión "nohtyP"
