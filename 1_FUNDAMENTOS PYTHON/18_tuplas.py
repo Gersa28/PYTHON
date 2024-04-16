@@ -1,3 +1,10 @@
+# Las Tuplas son inmutables, mientras que las Listas son mutables. 
+# Las tuplas en Python son inmutables, lo que significa que una vez creada una tupla, 
+# sus elementos no pueden cambiar. 
+# Las tuplas no pueden ser alteradas, las Listas sí.
+# numbers_tupla = (1, 2, 3, 4) #TUPLA
+# numbers = [1, 2, 3, 4] #LISTA
+
 numbers = (1, 2, 3, 5)
 strings = ('nico', 'zule', 'santi', 'nico')
 print(numbers)
