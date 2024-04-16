@@ -10,3 +10,14 @@ if (result == 0):
 	print('Es par')
 else:
 	print('Es impar')
+
+pet = input('¿Cuál es tu mascota favorita? ')
+
+if pet == 'perro':
+  print('genial tienes buen gusto')
+elif pet == 'gato':
+  print('espero tengas suerte')
+elif pet == 'pez':
+  print('eres lo máximo')
+else:
+  print('no tienes ninguna mascota interesante')
