@@ -9,8 +9,6 @@ if 'JS' in text:
 else:
   print('Tambien elegiste bien')
 
-
-
 size = len(text)
 print(size)
 
@@ -30,7 +28,6 @@ print(text_2.capitalize())
 print(text_2.title())
 print(text_2.isdigit())
 print("398".isdigit())
-
 
 """
 1.	capitaliza      Cambia todas las letras a minúsculas menos la primera.
