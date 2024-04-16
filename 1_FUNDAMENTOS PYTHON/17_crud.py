@@ -55,4 +55,4 @@ strings = ['re', 'ab', 'ed']
 strings.sort()
 print(strings)
 
-new_list.sort()
+new_list.sort() # NO FUNCIONA CUANDO CONTIENE DATOS DE DIFERENTES TIPOS
