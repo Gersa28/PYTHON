@@ -1,6 +1,5 @@
 text = 'Ella sabe programar en Python'
 
-
 print('JavaScript' in text)
 print('Python' in text)
 
