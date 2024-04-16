@@ -24,9 +24,8 @@ print(my_dic.get('nombre'))
 print(my_dic.get('genero'))
 print(my_dic.get('edad'))
 print(my_dic.get('juan jose'))
-#la diferencia con get es que imprímelos datos que no hay nada definido(none)
-#es recomendable siempre trabajar con get, porque si no existe el diccionario no dará un error solo pondrá None 
+#es recomendable siempre trabajar con get, porque si no existe el diccionario no dará un error 
 
-#tambien podemos verificar si una llave no existe ni (IN), que nos arrojara valores bulenos 
+#tambien podemos verificar si una llave existe
 print('persona' in my_dic)
 print('apellidos' in my_dic)
