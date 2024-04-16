@@ -30,4 +30,3 @@ print(my_dic.get('juan jose'))
 #tambien podemos verificar si una llave no existe ni (IN), que nos arrojara valores bulenos 
 print('persona' in my_dic)
 print('apellidos' in my_dic)
-#en esta clase vimos los primeros acercamientos a los diccionarios
