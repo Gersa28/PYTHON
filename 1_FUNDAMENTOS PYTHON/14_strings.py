@@ -1,6 +1,6 @@
 text = 'Ella sabe programar en Python'
 
-'''
+
 print('JavaScript' in text)
 print('Python' in text)
 
@@ -9,7 +9,7 @@ if 'JS' in text:
 else:
   print('Tambien elegiste bien')
 
-'''
+
 
 size = len(text)
 print(size)
