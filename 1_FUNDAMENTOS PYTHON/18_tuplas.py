@@ -5,6 +5,12 @@
 # numbers_tupla = (1, 2, 3, 4) #TUPLA
 # numbers = [1, 2, 3, 4] #LISTA
 
+My_list = list(una_tupla o string) # convertir una tupla en una lista 
+My_tupla = tupla(my_list) # convert una lista en una tupla
+#TIP: las listas se pueden modificar. Los strings no.
+
+
+
 numbers = (1, 2, 3, 5)
 strings = ('nico', 'zule', 'santi', 'nico')
 print(numbers)
