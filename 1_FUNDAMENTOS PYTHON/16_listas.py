@@ -2,6 +2,7 @@
 # Las tuplas en Python son inmutables, lo que significa que una vez creada una tupla, 
 # sus elementos no pueden cambiar. 
 # Las tuplas no pueden ser alteradas, las Listas sí.
+numbers_tupla = (1, 2, 3, 4)
 
 numbers = [1, 2, 3, 4]
 print(numbers)
