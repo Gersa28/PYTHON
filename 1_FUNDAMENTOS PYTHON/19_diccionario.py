@@ -1,19 +1,33 @@
-my_dict = {}
-print(type(my_dict))
+# aprederemos sobre la estructura de los diccionarios, en python se definen por un par llave-valor:
+my_dic = {'persona, niño'}
+print(my_dic)
+print(type(my_dic))
 
-my_dict = {
-  'avion': "bla bla bla",
-  'name': 'Nicolas',
-  'last_name': 'Molina Monroy',
-  'age': 87
+my_dic = {
+  'persona': 'niño',
+  'nombre': 'nicolas',
+  'genero':'masculino',
+  'edad': '12 años'#aca estamos definiendo los datos de diccionario
 }
+print(my_dic)
+print(len(my_dic))#con len podemos saber cuántos elementos tenemos en el dic
 
-print(my_dict)
-print(len(my_dict))
+#tambien puedo leer ese diccionario con los métodos 
+print(my_dic['persona'])
+print(my_dic['nombre'])
+print(my_dic['genero'])
+print(my_dic['edad'])
 
-print(my_dict['age'])
-print(my_dict['last_name'])
-print(my_dict.get('age'))
+#tambien hay otra forma de hacer que es con el método get
+print(my_dic.get('persona'))
+print(my_dic.get('nombre'))
+print(my_dic.get('genero'))
+print(my_dic.get('edad'))
+print(my_dic.get('juan jose'))
+#la diferencia con get es que imprímelos datos que no hay nada definido(none)
+#es recomendable siempre trabajar con get, porque si no existe el diccionario no dará un error solo pondrá None 
 
-print('avion' in my_dict)
-print('otroqueno' in my_dict)
+#tambien podemos verificar si una llave no existe ni (IN), que nos arrojara valores bulenos 
+print('persona' in my_dic)
+print('apellidos' in my_dic)
+#en esta clase vimos los primeros acercamientos a los diccionarios
