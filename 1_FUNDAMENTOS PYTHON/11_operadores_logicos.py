@@ -13,6 +13,7 @@ stock = int(stock)
 
 print(stock >= 100 and stock <= 1000)
 
+# or
 print('OR')
 print('True or True =>', True or True)
 print('True or False =>', True or False)
