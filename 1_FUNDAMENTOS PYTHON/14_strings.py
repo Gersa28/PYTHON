@@ -29,8 +29,8 @@ print(text_2.isdigit())
 print("398".isdigit())
 
 """
-1.	capitaliza      Coloca el primer caracter en mayúscula, ¿El resto de las letras las setea en minúscula? (SÍ) Te invito a hacer la prueba .
-2.	casefold        Utilizada para comparar cadenas sin importar el tamaño de los caracteres.
+1.  capitaliza      Coloca el primer caracter en mayúscula, ¿El resto de las letras las setea en minúscula? (SÍ) Te invito a hacer la prueba .
+2.  casefold        Utilizada para comparar cadenas sin importar el tamaño de los caracteres.
 3.  center          Formatea una cadena alineandola al centro
 4.  count           Cuenta las ocurrencias de una cadena
 5.  encode          Codifica una cadena según la codificación deseada.
