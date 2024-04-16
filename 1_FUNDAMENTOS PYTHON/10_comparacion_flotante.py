@@ -1,7 +1,7 @@
 x = 3.3
 print(x)
 print("Imprimiré y:")
-y = 1.1 + 2.2
+y = 1.1 + 2.2 # Esto no será igual a x
 print(y) # Ver cantidad de Decimales
 print(x == y) # False
 
