@@ -1,3 +1,5 @@
+# Juego piedra, papel y tijera con funciones.
+
 import random
 
 def choose_options():
