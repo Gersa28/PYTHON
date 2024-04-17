@@ -29,3 +29,16 @@ print(my_dic.get('juan jose'))
 #tambien podemos verificar si una llave existe
 print('persona' in my_dic)
 print('apellidos' in my_dic)
+
+# Ejemplo de uso de diccionario en función
+def message_creator(text):
+   respuestas = {
+      'computadora' : "Con mi computadora puedo programar usando Python",
+      'celular' : "En mi celular puedo aprender usando la app de Platzi",
+      'cable' : "¡Hay un cable en mi bota!"
+      }
+
+   if text in respuestas.keys(): 
+      return respuestas[text]
+   else: 
+      return 'Artículo no encontrado'
