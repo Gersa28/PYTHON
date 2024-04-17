@@ -17,7 +17,8 @@ numeros_impares = filter(es_impar, numeros)
 numeros_impares_lista = list(numeros_impares)
 
 # Imprimimos los números impares filtrados
-print(numeros_impares_lista)  # Output: [1, 3, 5, 7, 9]
+print(numeros_impares_lista)  
+# Output: [1, 3, 5, 7, 9]
 
 # Con lambda
 numbers = [1,2,3,4,5]
