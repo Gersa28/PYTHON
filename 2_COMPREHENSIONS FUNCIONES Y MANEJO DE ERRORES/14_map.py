@@ -29,3 +29,10 @@ result = list(map(lambda x, y: x + y, numbers_1, numbers_2))
 # Imprimir el resultado de la suma de las dos listas
 print("Resultado de la suma de elementos:", result)
 
+# Ejemplo Ilustrativo
+ingredientes = ['🐏' , '🐓','🐟','🐖']
+preparacion = ['🍔','🍗','🍣','🥓']
+print(ingredientes)
+print(preparacion)
+result=list(map(lambda a,b:'Con '+ a +' se puede hacer '+ b, ingredientes,preparacion)) # Usando MAP
+print(result)
