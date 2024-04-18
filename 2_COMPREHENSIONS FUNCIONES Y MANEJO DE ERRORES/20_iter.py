@@ -1,3 +1,10 @@
+"""
+Este código muestra la iteración a través de un rango utilizando un bucle for, 
+así como la creación y uso de un iterador a partir de un rango utilizando la función iter() 
+y la función next() para obtener los elementos del iterador uno a uno. 
+La última llamada a next() genera una excepción StopIteration porque el iterador está agotado.
+"""
+
 # Iteración a través de un rango del 1 al 9 (inclusive)
 for i in range(1, 10):
     print(i)
