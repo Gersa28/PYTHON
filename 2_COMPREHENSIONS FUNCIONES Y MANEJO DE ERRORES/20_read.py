@@ -22,5 +22,5 @@ def read_csv(path):
 
 if __name__ == '__main__':
     # Si el script se ejecuta directamente, leer el archivo CSV e imprimir la primera fila de datos
-    data = read_csv('./app/data.csv')
+    data = read_csv('./data.csv')
     print(data[0])  # Imprimir la primera fila de datos
