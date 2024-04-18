@@ -3,6 +3,8 @@ Este código muestra la iteración a través de un rango utilizando un bucle for
 así como la creación y uso de un iterador a partir de un rango utilizando la función iter() 
 y la función next() para obtener los elementos del iterador uno a uno. 
 La última llamada a next() genera una excepción StopIteration porque el iterador está agotado.
+
+Un ciclo for no es mas que azucar sintactica ya que internamente lo que hace es un ciclo while True hasta llegar a StopIteration
 """
 
 # Iteración a través de un rango del 1 al 9 (inclusive)
