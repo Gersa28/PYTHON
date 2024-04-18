@@ -9,7 +9,7 @@ def run():
     """
     Función principal que ejecuta la lógica del programa.
     """
-    # Lee los datos del archivo CSV './app/data.csv'.
+    # Lee los datos del archivo CSV './data.csv'.
     data = read_csv.read_csv('./app/data.csv')
     
     # Filtra los datos para obtener solo los países de Sudamérica.
