@@ -1,5 +1,6 @@
 # Curso de Python: PIP y Entornos Virtuales
 
+## Link a manual en Notion: ##
 
 ## ⭐ Comandos Basicos
 
