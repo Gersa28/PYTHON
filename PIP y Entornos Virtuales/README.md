@@ -68,13 +68,6 @@ PIP es el gestor de paquetes de python, es posible buscar librerías en la pagin
 - Listar las librerías que se tienen en el entorno de python global `pip3 list`.
 - Listar todas las librerías de python instaladas por el usuario `pip3 freeze`.
 
-<aside>
-⚠️ If you get this error, try `sudo apt-get update` and then install the package
-
-- E: Failed to fetch [http://security.ubuntu.com/ubuntu/pool/main/e/expat/libexpat1-dev_2.2.9-1ubuntu0.4_amd64.deb](http://security.ubuntu.com/ubuntu/pool/main/e/expat/libexpat1-dev_2.2.9-1ubuntu0.4_amd64.deb)  404  Not Found [IP: 185.125.190.36 80]
-- E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
-</aside>
-
 ## Ambientes virtuales
 
 Instalar a nivel global puede causar distintos problemas al momento de manejar diferentes proyectos, por ejemplo para algunos proyectos necesitaras otro tipo de version, libreria o modulos y para solucionar esto se creo un ambiente virtual en python el cual encapsula cada proyecto y no lo deja de forma compartida.
