@@ -138,7 +138,7 @@ Preparar archivo para contribución
 
 ## Solicitudes HTTP con Requests
 
-Podemos consultar informacion de una URL con el modulo `requests` se instala con `pip3 install requests` .
+Podemos consultar información de una URL con el modulo `requests` se instala con `pip3 install requests` .
 
 ```python
 import requests
