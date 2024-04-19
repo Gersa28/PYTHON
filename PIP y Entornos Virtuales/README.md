@@ -199,7 +199,6 @@ Es una herramienta que nos sirve para aislar entornos de ejecucion, eso lo hace 
 
 ## Instalacion de Docker
 
-[Instalación de Docker - Platzi](https://www.notion.so/Instalaci-n-de-Docker-Platzi-c2c9f5c1a4e24889a000a4905da80ffd) 
 
 ![https://static.platzi.com/media/user_upload/8323.1565281088-7b670145-bb5f-40b8-b2d8-b8b85c90821e.jpg](https://static.platzi.com/media/user_upload/8323.1565281088-7b670145-bb5f-40b8-b2d8-b8b85c90821e.jpg)
 
