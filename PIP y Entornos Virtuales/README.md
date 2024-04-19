@@ -113,7 +113,7 @@ Instalar a nivel global puede causar distintos problemas al momento de manejar d
 
 - `pip3 freeze`
 
-## Automatización de instalacion de módulos o librerias en ambiente virtual
+## Automatización de instalación de módulos o librerias en ambiente virtual
 
 Requirements.txt = Archivo que gestiona todas las dependencias y en que versiones se necesitan.
 
