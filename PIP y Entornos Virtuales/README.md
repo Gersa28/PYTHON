@@ -59,7 +59,7 @@ Descargamos VSCode de microsoft store e instalamos las extensiones
 
 Luego podemos abrir la terminal de linux y ejecutar VSCode con el codigo `code .` , creamos un archivo con la extension `.py` y ya podremos ejecutarlo desde la terminal con el codigo `python3 [nombre.py](http://nombre.py)` 
 
-## ¿Que es pip?
+## ¿Qué es pip?
 
 PIP es el gestor de paquetes de python, es posible buscar librerías en la pagina [pypi.org](https://pypi.org/).
 
@@ -113,7 +113,7 @@ Instalar a nivel global puede causar distintos problemas al momento de manejar d
 
 - `pip3 freeze`
 
-## Automatizacion de instalacion de modulos o librerias en ambiente virtual
+## Automatización de instalacion de módulos o librerias en ambiente virtual
 
 Requirements.txt = Archivo que gestiona todas las dependencias y en que versiones se necesitan.
 
@@ -188,9 +188,9 @@ Luego para inicializar el servidor en la terminal escribimos:
 
 ## ¿Qué es Docker?
 
-Es una herramienta que nos sirve para aislar entornos de ejecucion, eso lo hace con contenedores que tiene docker por detras.
+Es una herramienta que nos sirve para aislar entornos de ejecución, esto lo hace con contenedores.
 
-## Instalacion de Docker
+## Instalación de Docker
 
 
 ![https://static.platzi.com/media/user_upload/8323.1565281088-7b670145-bb5f-40b8-b2d8-b8b85c90821e.jpg](https://static.platzi.com/media/user_upload/8323.1565281088-7b670145-bb5f-40b8-b2d8-b8b85c90821e.jpg)
