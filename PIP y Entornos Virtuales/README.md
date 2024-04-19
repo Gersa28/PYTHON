@@ -148,7 +148,8 @@ def get_categories():
     print(r.status_code)
     print(r.text)
     print(type(r.text))
-    categories = r.json()
+    categories = r.json() #Convertimos la respuesta 'r' a formato JSON
+    print("Tipo de Categorías:",type(categories))
     for category in categories:
         print(category['name'])
 ```
