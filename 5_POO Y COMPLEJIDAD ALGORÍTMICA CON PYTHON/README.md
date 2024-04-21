@@ -6,10 +6,6 @@
   <img src="readme_img/python.png" width="250">
 </div>
 
-# Introducción al documento
-
-El contenido de este documento esta basado en el curso del mismo nombre dictado por [David Aroesti](https://github.com/jdaroesti) en [Platzi](https://platzi.com/r/karlbehrens/).
-
 # Tabla de contenido
 - [Programación Orientada a Objetos](#Programación-Orientada-a-Objetos)
     - [Objetivos](#Objetivos)
