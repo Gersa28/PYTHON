@@ -7,7 +7,7 @@ def factorial(n):
     print(n)
     # Para que la recursividad no sea infinita
     # definimos en que momento terminara.
-    if n == 1:
+    if n == 1 or n == 0:
         return 1
 
     # Llamamos a la función "factorial" a si misma
