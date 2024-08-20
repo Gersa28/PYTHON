@@ -34,3 +34,12 @@ print("1" == 1)
 
 age = 15
 print(age >= 18)
+
+a = 10
+b = 3
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+print(a == b)
+print(a != b)
