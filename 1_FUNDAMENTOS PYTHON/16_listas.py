@@ -68,3 +68,20 @@ del numbers
 #print(numbers)
 
 # Fin del capitulo
+
+# slicing
+a = [1,2,3,4,5]
+b = a # Ojo con las copias porque se van a modificar ambos si apuntan a la misma direccion de memoria
+print(a)
+print(b)
+del a[0]
+print(id(a))
+print(id(b))
+c = a[:] # ASÍ SE DEBERIAN COPIAS LAS LISTAS
+print(id(a))
+print(id(b))
+print(id(c))
+a.append(6)
+print(a)
+print(b)
+print(c)
