@@ -22,9 +22,16 @@ product = {
 for key in product:
   print(key, '=>', product[key])
 
+# Inicia un bucle for que itera sobre los elementos del diccionario 'product'.
+# El método items() devuelve una vista de objetos tipo tuple, donde cada tuple contiene
+# una clave y su valor asociado del diccionario.
 for key, value in product.items():
-  print(key, '=>', value)
-
+  
+    # Dentro del bucle, se imprime la clave (key) y su valor (value)
+    # separados por la flecha '=>'.
+    # En cada iteración, 'key' toma el valor de una de las claves del diccionario,
+    # y 'value' toma el valor asociado a esa clave.
+    print(key, '=>', value)
 people = [
   {
     'name': 'nico',
