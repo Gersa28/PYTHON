@@ -43,3 +43,13 @@ def mi_generador():
 # Usar el generador
 for valor in mi_generador():
     print(valor)
+
+def fibonacci(limite):
+    a, b = 0, 1
+    while a < limite:
+        yield a
+        a, b = b, a + b
+
+# Usar el generador para la serie de Fibonacci hasta 10
+for numero in fibonacci(10):
+    print(numero)
