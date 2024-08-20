@@ -23,3 +23,13 @@ print('v2', template)
 
 template = f"Hola, mi nombre es {name} y mi apellido es {last_name} \n"
 print('v3', template)
+
+name = 'CARLA Marcela'
+last_name = '   Florida     Roman  '
+print(5 * name)
+print(name + ' ' + last_name)
+print(len(name))
+print(len(last_name))
+print(name.lower())
+print(name.upper())
+print(last_name.strip())
