@@ -10,5 +10,5 @@ squared_numbers = list(map(lambda x: x**2, numbers))
 print("Cuadrados:", squared_numbers )
 
 #Pares
-even_numbers = list(filter(lambda x: x%2 == 0, numbers))
+even_numbers = list(filter(lambda x : x%2 == 0, numbers))
 print("Pares:", even_numbers)
