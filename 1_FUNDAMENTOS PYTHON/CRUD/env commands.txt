@@ -1,0 +1,18 @@
+python -m venv venv  
+.\venv\Scripts\Activate 
+python.exe -m pip install --upgrade pip
+pip install --editable .
+
+which pv
+pv --help
+pv clients --help
+            Commands:
+            create  Creates a new client
+            delete  Deletes a client
+            list    List all clients
+            update  Updates a single client
+
+Ejemplos de comandos de la aplicación:
+pv clients list  
+pv clients create
+pv clients update('46df4g6465fd')
