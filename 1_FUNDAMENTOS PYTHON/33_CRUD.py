@@ -1,20 +1,38 @@
-import sys
+import os
+import csv
 
-# Lista de Diccionarios
-clients = [ 
-    {
-        'name': 'Pablo',
-        'company': 'Google',
-        'email': 'pablo@google.com',
-        'position': 'Software Engineer',
-    },
-    {
-        'name': 'Ricardo',
-        'company': 'Facebook',
-        'email': 'ricardo@facebook.com',
-        'position': 'Data Engineer',
-    },
-]
+ARCHIVO_CLIENTE = '.clients.csv'  # Nombre del archivo de clientes
+CLIENT_SCHEMA = ['name', 'company', 'email', 'position']
+clients = []
+
+def _initialize_clients_from_storage():
+    print("Initializing")
+    
+    # Verifica si el archivo existe
+    if not os.path.exists(ARCHIVO_CLIENTE):
+        # Si no existe, crea el archivo vacío con las columnas definidas
+        with open(ARCHIVO_CLIENTE, mode='w') as file:
+            pass # Simplemente crea el archivo vacío
+    
+    # Ahora, abre el archivo para lectura
+    with open(ARCHIVO_CLIENTE, mode='r') as file:
+        reader = csv.DictReader(file, fieldnames=CLIENT_SCHEMA)
+        for row in reader:
+            clients.append(row)
+        # El archivo se cierra automáticamente al salir del bloque 'with'
+
+
+def _save_clients_to_storage():
+    # tmp_table_name = '{}.tmp'.format(ARCHIVO_CLIENTE)  # .clients.csv.tmp
+    guardado_temporal = './salida.csv' # .clients.csv.tmp
+    with open(guardado_temporal, mode='w') as file:  # Usando tmp_table_name correctamente
+        writer = csv.DictWriter(file, fieldnames=CLIENT_SCHEMA)
+        writer.writerows(clients)
+
+    os.remove(ARCHIVO_CLIENTE)  # Eliminamos la tabla original
+    os.rename(guardado_temporal, ARCHIVO_CLIENTE)  # Renombramos la tabla temporal
+
+    # El archivo se cierra automáticamente al salir del bloque 'with'
 
 
 def create_client(client):# Habrá que pasar un diccionario o la llave
@@ -92,7 +110,8 @@ def _print_welcome():
 
 
 if __name__ == '__main__':
-    
+    _initialize_clients_from_storage()
+
     _print_welcome()
 
     command = input()
@@ -101,7 +120,7 @@ if __name__ == '__main__':
     if   command == 'C':
         client = _get_client_from_user()
         create_client(client)
-        list_clients()
+        
 
     elif command == 'L':
         list_clients()
@@ -110,15 +129,14 @@ if __name__ == '__main__':
         client_id = int(_get_client_field('id'))
         updated_client = _get_client_from_user()
         update_client(client_id, updated_client)
-        list_clients()
 
     elif command == 'D':
         client_id = int(_get_client_field('id'))
         delete_client(client_id)
-        list_clients()
 
     elif command == 'S':
         client_name = _get_client_field('name')
+        print("Client name: %s," % client_name, "Searching . . .")
         found = search_client(client_name)        
         if found:
             print('The client is in the client\'s list')
@@ -127,3 +145,5 @@ if __name__ == '__main__':
 
     else:
         print('Invalid command')
+
+    _save_clients_to_storage()
